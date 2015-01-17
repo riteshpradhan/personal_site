@@ -4,32 +4,34 @@ a.brand img {
 	border-radius:50%;
 	border:5px solid #fff;
 }
-.profile, .skills, .work, .resume {
+#profile, #skills, #work, #resume {
 	padding:30px 0;
+	padding-top: 120px;
+	min-height:500px;
 }
-.profile h2, .skills h2, .work h2, .resume h2 {
+#profile h2, #skills h2, #work h2, #resume h2 {
 	font-weight:normal;
 	color: #39D084;
 }
 /***** Profile *****/
-	.profile h1 {
+	#profile h1 {
 	color:#39d084;
 	font-weight: normal;
 }
-.profile h3 {
+#profile h3 {
 	color:#fff;
 	font-weight: normal;
 }
-.profile p {
+#profile p {
 	color:#fff;
 	font-size:18px;
 	line-height: 35px;
 	margin-top: 30px;
 }
-.profile .container .span5 {
+#profile .container .span5 {
 	padding:40px 0;
 }
-a.hire-me {
+a.my-resume {
 	display: inline-block;
  *display: inline;
 	padding:20px 60px;
@@ -42,7 +44,7 @@ a.hire-me {
 	-moz-border-radius: 40px;
 	border-radius: 40px;
 }
-a.hire-me:hover {
+a.my-resume:hover {
 	text-decoration:none;
 	background:#11d170;
 }
@@ -68,15 +70,15 @@ ul.social-icons li a:hover {
 	opacity:1;
 }
 /***** Skills *****/
-.skills .span3 {
+#skills .span3 {
 	width:235px;
 	overflow: hidden;
 }
-.skills .span5 {
+#skills .span5 {
 	text-align:left;
 	padding:47px 0;
 }
-.skills .ps, .skills .ai, .skills .html, .skills .css {
+#skills .py, #skills .c, #skills .cpp, #skills .php {
 	padding:25px;
 	width:100px;
 	height:100px;
@@ -91,28 +93,28 @@ ul.social-icons li a:hover {
 	-o-transition: all 0.2s linear;
 	transition: all 0.2s linear;
 }
-.skills .ps {
+#skills .py {
 	background:#30a5dc;
 }
-.skills .ai {
+#skills .c {
 	background:#ee742b;
 }
-.skills .html {
+#skills .cpp {
 	background:#f04949;
 }
-.skills .css {
+#skills .php {
 	background:#39d084;
 }
-.skills .ps:hover, .skills .ai:hover, .skills .html:hover, .skills .css:hover {
+#skills .py:hover, #skills .c:hover, #skills .cpp:hover, #skills .php:hover {
 	border:8px solid #fff;
 }
-.skills .ps h3, .skills .ai h3, .skills .html h3, .skills .css h3 {
+#skills .py h3, #skills .c h3, #skills .cpp h3, #skills .php h3 {
 	color:#fff;
 	font-size: 3.4em;
 	font-weight: normal;
 	line-height: 80px;
 }
-.skills .html h3, .skills .css h3 {
+#skills .cpp h3, #skills .php h3 {
 	font-size: 2.2em;
 }
 .expand-bg {
@@ -130,40 +132,40 @@ ul.social-icons li a:hover {
 	padding: 4px 0 4px 5px;
 	position: absolute;
 }
-.skills .span5 h3 {
+#skills .span5 h3 {
 	font-size: 18.5px;
 	line-height: 15px;
 	font-weight:normal;
 	text-transform:uppercase;
 }
-.skills .span5 h3 span {
+#skills .span5 h3 span {
 	float:right;
 }
-.ps2 {
-	width:90%;
+.py2 {
+	width:80%;
 	background:#30a5dc;
 	-moz-animation:html5 2s ease-out;
 	-webkit-animation:html5 2s ease-out;
 }
-.ai2 {
-	width:80%;
+.c2 {
+	width:70%;
 	background:#ee742b;
 	-moz-animation:css3 2s ease-out;
 	-webkit-animation:css3 2s ease-out;
 }
-.html2 {
-	width:75%;
+.cpp2 {
+	width:70%;
 	background:#f04949;
 	-moz-animation:jquery 2s ease-out;
 	-webkit-animation:jquery 2s ease-out;
 }
-.css2 {
-	width:85%;
+.php2 {
+	width:50%;
 	background:#39d084;
 	-moz-animation:photoshop 2s ease-out;
 	-webkit-animation:photoshop 2s ease-out;
 }
- @-moz-keyframes ps2 {
+ @-moz-keyframes py2 {
 0% {
 width:0px;
 }
@@ -171,7 +173,7 @@ width:0px;
 width:90%;
 }
 }
-@-moz-keyframes ai2 {
+@-moz-keyframes c2 {
 0% {
 width:0px;
 }
@@ -179,7 +181,7 @@ width:0px;
 width:80%;
 }
 }
-@-moz-keyframes html2 {
+@-moz-keyframes cpp2 {
 0% {
 width:0px;
 }
@@ -187,7 +189,7 @@ width:0px;
 width:75%;
 }
 }
-@-moz-keyframes css2 {
+@-moz-keyframes php2 {
 0% {
 width:0px;
 }
@@ -195,7 +197,7 @@ width:0px;
 width:85%;
 }
 }
- @-webkit-keyframes ps2 {
+ @-webkit-keyframes py2 {
 0% {
 width:0px;
 }
@@ -203,7 +205,7 @@ width:0px;
 width:90%;
 }
 }
-@-webkit-keyframes ai {
+@-webkit-keyframes c {
 0% {
 width:0px;
 }
@@ -211,7 +213,7 @@ width:0px;
 width:80%;
 }
 }
-@-webkit-keyframes html {
+@-webkit-keyframes cpp {
 0% {
 width:0px;
 }
@@ -219,7 +221,7 @@ width:0px;
 width:75%;
 }
 }
-@-webkit-keyframes css {
+@-webkit-keyframes php {
 0% {
 width:0px;
 }
@@ -252,20 +254,17 @@ ul.work-images li img {
 	transition: all 0.2s linear;
 }
 ul.work-images li img:hover {
-	opacity:0.1;
+	opacity:0.3;
 }
 /***** Resume container *****/
-.resume h3 {
+#resume h3 {
 	margin:60px 0;
 }
-.resume .btn-center {
+#resume .btn-center {
 	text-align:center;
 }
 .footer {
 	background:#355267;
-	position: fixed;
-	width: 100%;
-	bottom:0;
 }
 .footer p {
 	margin:20px 0;

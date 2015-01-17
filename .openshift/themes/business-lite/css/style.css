@@ -139,14 +139,21 @@ ul.social-icons li a:hover {
 .skills .span5 h3 span {
 	float:right;
 }
+.py {
+	width:10%;
+	background:#30a5dc;
+	-moz-animation:html5 2s ease-out;
+	-webkit-animation:html5 2s ease-out;
+}
+
 .ps2 {
-	width:90%;
+	width:10%;
 	background:#30a5dc;
 	-moz-animation:html5 2s ease-out;
 	-webkit-animation:html5 2s ease-out;
 }
 .ai2 {
-	width:80%;
+	width:40%;
 	background:#ee742b;
 	-moz-animation:css3 2s ease-out;
 	-webkit-animation:css3 2s ease-out;
@@ -163,12 +170,20 @@ ul.social-icons li a:hover {
 	-moz-animation:photoshop 2s ease-out;
 	-webkit-animation:photoshop 2s ease-out;
 }
+ @-moz-keyframes py {
+0% {
+width:0px;
+}
+100% {
+width:100%;
+}
+}
  @-moz-keyframes ps2 {
 0% {
 width:0px;
 }
 100% {
-width:90%;
+width:10%;
 }
 }
 @-moz-keyframes ai2 {
@@ -195,12 +210,20 @@ width:0px;
 width:85%;
 }
 }
+ @-webkit-keyframes py {
+0% {
+width:0px;
+}
+100% {
+width:100%;
+}
+}
  @-webkit-keyframes ps2 {
 0% {
 width:0px;
 }
 100% {
-width:90%;
+width:80%;
 }
 }
 @-webkit-keyframes ai {
@@ -224,7 +247,7 @@ width:75%;
 width:0px;
 }
 100% {
-width:85%;
+width:100%;
 }
 }
 /**** Work container *****/
