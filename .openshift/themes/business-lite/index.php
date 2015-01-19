@@ -34,7 +34,7 @@
                 }
             });
         });
-            </script>
+    </script>
     </head>
     <body>
     <div class="navbar navbar-fixed-top">
