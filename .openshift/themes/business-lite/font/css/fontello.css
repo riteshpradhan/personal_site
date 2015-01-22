@@ -47,7 +47,7 @@
   /* font-size: 120%; */
  
   /* Uncomment for 3D effect */
-  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+   /*text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
  
 .icon-mail:before { content: '\e806'; } /* '' */
@@ -66,3 +66,4 @@
 .icon-trophy:before { content: '\e801'; } /* '' */
 .icon-user:before { content: '\e800'; } /* '' */
 .icon-download:before { content: '\e805'; } /* '' */
+.icon-firefox:before {content: '\ee810';}

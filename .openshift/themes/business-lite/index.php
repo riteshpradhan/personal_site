@@ -43,7 +43,7 @@
           <ul class="nav nav-collapse pull-right">
             <li><a href="#profile"><i class="icon-user"></i>Me</a></li>
             <li><a href="#skills"><i class="icon-trophy"></i>Skills</a></li>
-            <li><a href="#work"><i class="icon-picture"></i>Projects</a></li>
+            <li><a href="#work"><i class="icon-picture"></i>Portfolio</a></li>
             <li><a href="#resume"><i class="icon-doc-text"></i>Resume</a></li>
           </ul>
           <!-- Everything you want hidden at 940px or less, place within here -->
@@ -57,23 +57,30 @@
       <!--Profile container-->
       <div id="profile" class="container">
         <div class="span3"> <img src="<?php bloginfo('template_url'); ?>/img/mini.png"> </div>
-        <div class="span5">
-          <h1>Ritesh Pradhan</h1>
-          <h3>Computer Engineer</h3>
-          <p> Machine Learning, Data Mining, Artificial Intelligence enthusiats.</p>
-          <!-- <a href="#" class="my-resume"><i class="icon-paper-plane"></i> Hire Me </a> -->
-          <!-- <div class="row social">
-            <ul class="social-icons">
-              <li><a href="#" target="_blank"><img src="<?php bloginfo('template_url'); ?>/img/fb.png" alt="facebook"></a></li>
-              <li><a href="#" target="_blank"><img src="<?php bloginfo('template_url'); ?>/img/tw.png" alt="twitter"></a></li>
-              <li><a href="#" target="_blank"><img src="<?php bloginfo('template_url'); ?>/img/go.png" alt="google plus"></a></li>
-              <li><a href="#" target="_blank"><img src="<?php bloginfo('template_url'); ?>/img/pin.png" alt="pinterest"></a></li>
-              <li><a href="#" target="_blank"><img src="<?php bloginfo('template_url'); ?>/img/st.png" alt="stumbleupon"></a></li>
-              <li><a href="#" target="_blank"><img src="<?php bloginfo('template_url'); ?>/img/dr.png" alt="dribbble"></a></li>
+          <div class="span5">
+            <h1>Ritesh Pradhan</h1>
+            <h3>Computer Engineer</h3>
+            <p style="color:#39d084"><i class="icon-paper-plane" style="color:#39d084"></i> Interests</p>
+            <ul>
+              <li> Artificial Intelligence</li>
+              <li> Machine Learning</li>
+              <li> Data Mining</li>
+              <li> Computing Security</li>
+              <li> Game Development</li>
             </ul>
-          </div> -->
-        </div>
+          </div>
+        
         <!-- Social Icons -->
+        <div class="row social">
+          <ul class="social-icons">
+            <li><a href="https://www.facebook.com/ritesxz" target="_blank"><img src="<?php bloginfo('template_url'); ?>/img/fb.png" alt="facebook"></a></li>
+            <li><a href="#" target="_blank"><img src="<?php bloginfo('template_url'); ?>/img/tw.png" alt="twitter"></a></li>
+            <li><a href="#" target="_blank"><img src="<?php bloginfo('template_url'); ?>/img/go.png" alt="google plus"></a></li>
+            <li><a href="#" target="_blank"><img src="<?php bloginfo('template_url'); ?>/img/pin.png" alt="pinterest"></a></li>
+            <li><a href="#" target="_blank"><img src="<?php bloginfo('template_url'); ?>/img/st.png" alt="stumbleupon"></a></li>
+            <li><a href="#" target="_blank"><img src="<?php bloginfo('template_url'); ?>/img/dr.png" alt="dribbble"></a></li>
+          </ul>
+        </div>
         <!-- END: Social Icons -->
       </div>
       <!--END: Profile container-->
@@ -88,7 +95,7 @@
             </div>
           </div>
           <div class="span5">
-            <h3>Python <span>80%</span></h3>
+            <h3>Python <span>3 Years</span></h3>
             <div class="expand-bg"> <span class="expand py2"> &nbsp; </span> </div>
           </div>
         </div>
@@ -99,7 +106,7 @@
             </div>
           </div>
           <div class="span5">
-            <h3>C <span>70%</span></h3>
+            <h3>C <span>2 Years</span></h3>
             <div class="expand-bg"> <span class="expand c2"> &nbsp; </span> </div>
           </div>
         </div>
@@ -110,7 +117,7 @@
             </div>
           </div>
           <div class="span5">
-            <h3>C++ <span>70%</span></h3>
+            <h3>C++ <span>2 Years</span></h3>
             <div class="expand-bg"> <span class="expand cpp2"> &nbsp; </span> </div>
           </div>
         </div>
@@ -121,7 +128,7 @@
             </div>
           </div>
           <div class="span5">
-            <h3>PHP <span>50%</span></h3>
+            <h3>PHP <span>1 Year</span></h3>
             <div class="expand-bg"> <span class="expand php2"> &nbsp; </span> </div>
           </div>
         </div>
@@ -130,8 +137,32 @@
 
       <!-- Works container -->
       <div id="work" class="container">
-        <h2>My Work</h2>
+        <h2>Portfolio</h2>
+        
         <ul class="work-images">
+          <li>
+            <div><a href="##project1" title="Image 01"  data-toggle="modal"><img src="<?php bloginfo('template_url'); ?>/img/1-thumb.jpg" /></a></div>
+          </li>
+          <li>
+            <div><a href="##project2"  data-toggle="modal"><img src="<?php bloginfo('template_url'); ?>/img/2-thumb.jpg" /></a></div>
+          </li>
+          <li>
+            <div><a href="##project3"  data-toggle="modal"><img src="<?php bloginfo('template_url'); ?>/img/3-thumb.jpg" /></a></div>
+          </li>
+        </ul>
+        <ul class="work-images">
+          <li>
+            <div><a href="##project4"  data-toggle="modal"><img src="<?php bloginfo('template_url'); ?>/img/4-thumb.jpg" /></a></div>
+          </li>
+          <li>
+            <div><a href="##project5"  data-toggle="modal"><img src="<?php bloginfo('template_url'); ?>/img/5-thumb.jpg" /></a></div>
+          </li>
+          <li>
+            <div><a href="##project6"  data-toggle="modal"><img src="<?php bloginfo('template_url'); ?>/img/6-thumb.jpg" /></a></div>
+          </li>
+        </ul>
+
+        <!-- <ul class="work-images">
           <li>
             <div><a class="fancybox-thumb" rel="fancybox-thumb" href="<?php bloginfo('template_url'); ?>/img/1.jpg" title="Image 01"><img src="<?php bloginfo('template_url'); ?>/img/1-thumb.jpg" /></a></div>
           </li>
@@ -152,7 +183,7 @@
           <li>
             <div><a class="fancybox-thumb" rel="fancybox-thumb" href="<?php bloginfo('template_url'); ?>/img/6.jpg"><img src="<?php bloginfo('template_url'); ?>/img/6-thumb.jpg" /></a></div>
           </li>
-        </ul>
+        </ul> -->
         <!--Dummy images by The Fox And King :: http://dribbble.com/snootyfox-->
       </div>
       <!--END: Work container-->
@@ -168,7 +199,7 @@
       <!--END: Resume container-->
 
       <!-- Social Icons -->
-      <div class="row social">
+      <!-- <div class="row social">
         <ul class="social-icons">
           <li><a href="https://www.facebook.com/ritesxz" target="_blank"><img src="<?php bloginfo('template_url'); ?>/img/fb.png" alt="facebook"></a></li>
           <li><a href="#" target="_blank"><img src="<?php bloginfo('template_url'); ?>/img/tw.png" alt="twitter"></a></li>
@@ -177,7 +208,7 @@
           <li><a href="#" target="_blank"><img src="<?php bloginfo('template_url'); ?>/img/st.png" alt="stumbleupon"></a></li>
           <li><a href="#" target="_blank"><img src="<?php bloginfo('template_url'); ?>/img/dr.png" alt="dribbble"></a></li>
         </ul>
-      </div>
+      </div> -->
       <!-- END: Social Icons -->
     </div>
     <!-- Footer -->
@@ -187,12 +218,13 @@
         <p class="pull-right"><a href="##myModal" role="button" data-toggle="modal"> <i class="icon-mail"></i> CONTACT</a></p>
       </div>
     </div>
-    <!-- Contact form in Modal -->
+    
     <!-- Modal -->
+    <!-- Contact form in Modal -->
     <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-        <h3 id="myModalLabel"><i class="icon-mail"></i> Contact Me</h3>
+        <h3 id="myModalLabel"><i class="icon-mail"></i> Contactt Me</h3>
       </div>
       <div class="modal-body">
         <form>
@@ -203,6 +235,62 @@
           <br/>
           <button type="submit" class="btn btn-large"><i class="icon-paper-plane"></i> SUBMIT</button>
         </form>
+      </div>
+    </div>
+    <!-- Projects in modal -->
+    <div id="project1" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="project1" aria-hidden="true">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h3 id="project1"><i class="icon-mail"></i> project1</h3>
+      </div>
+      <div class="modal-body">
+          <img src="<?php bloginfo('template_url'); ?>/img/1.jpg" alt="project1"/>
+          <i class="icon-paper-plane"></i> SUBMIT
+      </div>
+    </div>
+    <div id="project2" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="project2" aria-hidden="true">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h3 id="project2"><i class="icon-mail"></i> project2</h3>
+      </div>
+      <div class="modal-body">
+          <i class="icon-paper-plane"></i> SUBMIT
+      </div>
+    </div>
+    <div id="project3" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="project3" aria-hidden="true">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h3 id="project3"><i class="icon-mail"></i> project3</h3>
+      </div>
+      <div class="modal-body">
+          <i class="icon-paper-plane"></i> SUBMIT
+      </div>
+    </div>
+    <div id="project4" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="project4" aria-hidden="true">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h3 id="project4"><i class="icon-mail"></i> project4</h3>
+      </div>
+      <div class="modal-body">
+          <i class="icon-paper-plane"></i> SUBMIT
+      </div>
+    </div>
+    <div id="project5" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="project5" aria-hidden="true">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h3 id="project5"><i class="icon-mail"></i> project5</h3>
+      </div>
+      <div class="modal-body">
+          <i class="icon-paper-plane"></i> SUBMIT
+      </div>
+    </div>
+    <div id="project6" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="project6" aria-hidden="true">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h3 id="project6"><i class="icon-mail"></i> project6</h3>
+      </div>
+      <div class="modal-body">
+          <i class="icon-paper-plane"></i> SUBMIT
       </div>
     </div>
     <!-- Scripts -->
