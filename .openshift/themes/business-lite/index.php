@@ -332,7 +332,7 @@
             <li>This is test4.</li>
           </ul>
           <a href="https://github.com/riteshpradhan/riteshpradhan.github.io"><img src="<?php bloginfo('template_url'); ?>/img/Octocat/Octocat-small.png" alt="Faces" style="width:80px;height:80px"/></a>
-          <a href="http://riteshpradhan.github.io"><img src="<?php bloginfo('template_url'); ?>/img/faces-play.png" alt="Faces" style="width:80px;height:80px"/></a>
+          <a href="http://riteshpradhan.github.io"><img src="<?php bloginfo('template_url'); ?>/img/projects/faces-play.png" alt="Faces" style="width:80px;height:80px"/></a>
         </div>
           <i class="icon-paper-plane"></i> SUBMIT
       </div>
