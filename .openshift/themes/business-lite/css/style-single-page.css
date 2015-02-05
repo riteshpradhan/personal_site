@@ -231,31 +231,40 @@ width:85%;
 }
 /**** Work container *****/
 ul.work-images li {
+	width: 250px;
+    height: 250px;
 	list-style:none;
 	display:inline-block;
 	margin: 8px 10px;
- background:
+ /*background:*/
 }
 ul.work-images li:first-child {
 	margin-left:0;
 }
 ul.work-images li div {
-	background:url(../img/eye.png) 50% 50% no-repeat;
-	background-color: #f04949;
+	background:url(../img/dragon.png) 50% 50% no-repeat;
+	background-size: 60px 80px;
+	/*background:url(../img/eye.png) 50% 50% no-repeat;*/
+	background-color: grey;
 	-webkit-transition: all 0.2s linear;
 	-moz-transition: all 0.2s linear;
 	-o-transition: all 0.2s linear;
 	transition: all 0.2s linear;
 }
 ul.work-images li img {
+	
 	-webkit-transition: all 0.2s linear;
 	-moz-transition: all 0.2s linear;
 	-o-transition: all 0.2s linear;
 	transition: all 0.2s linear;
+
 }
 ul.work-images li img:hover {
 	opacity:0.3;
 }
+
+.ocr:hover{ opacity: 0.5;}
+
 /***** Resume container *****/
 #resume h3 {
 	margin:60px 0;
@@ -276,3 +285,77 @@ ul.work-images li img:hover {
 .footer p a:hover {
 	color:#39d084;
 }
+
+/**** Self csss my ***/
+.project-description ul
+{
+	list-style-type: none;
+	font-size: 16px;
+	font-family: Helvetica, Arial, sans-serif;
+	text-align: left;
+}
+
+.project-description li
+{
+	font-size: 16px;
+	font-family: Helvetica, Arial, sans-serif;
+	text-align: left;
+}
+
+
+
+/***fonttello self font ***/
+
+i.default{color:#39d084}
+i.green {color:green}
+i.blue {color:blue}
+i.yellow {color:yellow}
+
+i.icon-3x {
+    display:block;
+    text-align: center;
+    font-size: 3.5em;
+}
+
+a .icon-3x {
+    color: #39d084;
+    color: #000000;
+    color:grey;
+}
+
+ a:hover .icon-3x {
+    color:#FFFFFF;
+    color: #39d084;
+    
+    -webkit-transition: all .8s ease-in-out;
+    -moz-transition: all .8s ease-in-out;
+    -o-transition: all .8s ease-in-out;
+    -ms-transition: all .8s ease-in-out;
+
+	-webkit-transform:rotate(360deg);
+    -moz-transform:rotate(360deg);
+    -o-transform:rotate(360deg);
+}
+
+span.text-content {
+background: rgba(0,0,0,0.5);
+color: white;
+cursor: pointer;
+display: table;
+height: 150px;
+left: 0;
+position: absolute;
+top: 0;
+width: 150px;
+opacity: 0;
+}
+ 
+ .ocr:hover span.text-content {
+opacity: 0.1;
+} 
+
+span.text-content span {
+display: table-cell;
+text-align: center;
+vertical-align: middle;
+} 

@@ -3982,8 +3982,11 @@ to {
 	top: 10%;
 	left: 50%;
 	z-index: 1050;
-	width: 560px;
-	margin-left: -280px;
+	/*width: 560px;*/
+	width: auto;
+	/*margin:auto;*/
+	margin-left: -15%;
+	/*margin-left: -280px;*/
 	background-color: #FFFFDB;
 	border: 1px solid #999;
 	border: 1px solid rgba(0, 0, 0, 0.3);
