@@ -272,7 +272,7 @@
             <li>This is test3.</li>
             <li>This is test4.</li>
           </ul>
-          <a href="https://github.com/riteshpradhan/OCR-radon-transformation"><img src="<?php bloginfo('template_url'); ?>/img/Octocat/Octocat.png" alt="OCR using Radon Transformation" style="width:80px;height:80px"/></a>
+          <a href="https://github.com/riteshpradhan/OCR-radon-transformation"><img src="<?php bloginfo('template_url'); ?>/img/Octocat/Octocat-small.png" alt="OCR using Radon Transformation" style="width:80px;height:80px"/></a>
       </div>
           <i class="icon-paper-plane"></i> SUBMIT
       </div>
@@ -292,7 +292,7 @@
             <li>This is test3.</li>
             <li>This is test4.</li>
           </ul>
-          <a href="https://github.com/riteshpradhan/rocket_simulation"><img src="<?php bloginfo('template_url'); ?>/img/Octocat/Octocat.png" alt="Rocket Simulation" style="width:80px;height:80px"/></a>
+          <a href="https://github.com/riteshpradhan/rocket_simulation"><img src="<?php bloginfo('template_url'); ?>/img/Octocat/Octocat-small.png" alt="Rocket Simulation" style="width:80px;height:80px"/></a>
         </div>
         <i class="icon-paper-plane"></i> SUBMIT
       </div>
@@ -331,7 +331,7 @@
             <li>This is test3.</li>
             <li>This is test4.</li>
           </ul>
-          <a href="https://github.com/riteshpradhan/riteshpradhan.github.io"><img src="<?php bloginfo('template_url'); ?>/img/Octocat/Octocat.png" alt="Faces" style="width:80px;height:80px"/></a>
+          <a href="https://github.com/riteshpradhan/riteshpradhan.github.io"><img src="<?php bloginfo('template_url'); ?>/img/Octocat/Octocat-small.png" alt="Faces" style="width:80px;height:80px"/></a>
           <a href="http://riteshpradhan.github.io"><img src="<?php bloginfo('template_url'); ?>/img/faces-play.png" alt="Faces" style="width:80px;height:80px"/></a>
         </div>
           <i class="icon-paper-plane"></i> SUBMIT
@@ -352,7 +352,7 @@
             <li>This is test4.</li>
           </ul>
           <a href="https://github.com/riteshpradhan/udacity-dl">
-            <img src="<?php bloginfo('template_url'); ?>/img/Octocat/Octocat.png" alt="udacity-dl" style="width:80px;height:80px"/>
+            <img src="<?php bloginfo('template_url'); ?>/img/Octocat/Octocat-small.png" alt="udacity-dl" style="width:80px;height:80px"/>
           </a>
           <a href="https://pypi.python.org/pypi/udacity-dl">
             <img src="<?php bloginfo('template_url'); ?>/img/logo-python.png" alt="udacity-dl" style="width:160px;height:80px"/>
@@ -375,7 +375,7 @@
             <li>This is test3.</li>
             <li>This is test4.</li>
           </ul>
-          <a href="https://github.com/riteshpradhan/Codeskulptor"><img src="<?php bloginfo('template_url'); ?>/img/Octocat/Octocat.png" alt="Codeskulptor Games" style="width:80px;height:80px"/></a>
+          <a href="https://github.com/riteshpradhan/Codeskulptor"><img src="<?php bloginfo('template_url'); ?>/img/Octocat/Octocat-small.png" alt="Codeskulptor Games" style="width:80px;height:80px"/></a>
         </div>
           <i class="icon-paper-plane"></i> SUBMIT
       </div>
@@ -394,7 +394,7 @@
             <li>This is test3.</li>
             <li>This is test4.</li>
           </ul>
-          <a href="https://github.com/riteshpradhan/Virtual_tour"><img src="<?php bloginfo('template_url'); ?>/img/Octocat/Octocat.png" alt="Virtual Tour" style="width:80px;height:80px"/></a>
+          <a href="https://github.com/riteshpradhan/Virtual_tour"><img src="<?php bloginfo('template_url'); ?>/img/Octocat/Octocat-small.png" alt="Virtual Tour" style="width:80px;height:80px"/></a>
         </div>
           <i class="icon-paper-plane"></i> SUBMIT
       </div>
@@ -413,7 +413,7 @@
             <li>This is test3.</li>
             <li>This is test4.</li>
           </ul>
-          <a href="https://github.com/riteshpradhan/maze"><img src="<?php bloginfo('template_url'); ?>/img/Octocat/Octocat.png" alt="Maze" style="width:80px;height:80px"/></a>
+          <a href="https://github.com/riteshpradhan/maze"><img src="<?php bloginfo('template_url'); ?>/img/Octocat/Octocat-small.png" alt="Maze" style="width:80px;height:80px"/></a>
         </div>
           <i class="icon-paper-plane"></i> SUBMIT
       </div>
@@ -432,7 +432,7 @@
             <li>This is test3.</li>
             <li>This is test4.</li>
           </ul>
-          <a href="https://github.com/riteshpradhan/image_utility"><img src="<?php bloginfo('template_url'); ?>/img/Octocat/Octocat.png" alt="Image Utility" style="width:80px;height:80px"/></a>
+          <a href="https://github.com/riteshpradhan/image_utility"><img src="<?php bloginfo('template_url'); ?>/img/Octocat/Octocat-small.png" alt="Image Utility" style="width:80px;height:80px"/></a>
         </div>
 
           <i class="icon-paper-plane"></i> SUBMIT
