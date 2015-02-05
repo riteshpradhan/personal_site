@@ -261,7 +261,7 @@
     <div id="project1" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="OCR using Radon Transformation" aria-hidden="true">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-        <h3 id="project1"><i class="icon-mail"></i> OCR using Radon Transformation </h3>
+        <h3 id="project1"><i class="icon-rocket"></i> OCR using Radon Transformation </h3>
       </div>
       <div class="modal-body">
       <!-- <img src="<?php bloginfo('template_url'); ?>/img/1.jpg" alt="project1"/> -->
@@ -282,7 +282,7 @@
     <div id="project2" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="Rocket Simulation" aria-hidden="true">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-        <h3 id="project2"><i class="icon-mail"></i> Rocket Simulation </h3>
+        <h3 id="project2"><i class="icon-rocket"></i> Rocket Simulation </h3>
       </div>
       <div class="modal-body">
       <div class="project-description">
@@ -301,7 +301,7 @@
     <div id="project3" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="TakTak Pictures Puzzle" aria-hidden="true">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-        <h3 id="project3"><i class="icon-mail"></i> TakTak Pictures Puzzle</h3>
+        <h3 id="project3"><i class="icon-rocket"></i> TakTak Pictures Puzzle </h3>
       </div>
       <div class="modal-body">
         <div class="project-description">
@@ -321,7 +321,7 @@
     <div id="project4" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="Faces" aria-hidden="true">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-        <h3 id="project4"><i class="icon-mail"></i> Faces </h3>
+        <h3 id="project4"><i class="icon-rocket"></i> Faces </h3>
       </div>
       <div class="modal-body">
       <div class="project-description">
@@ -341,7 +341,7 @@
     <div id="project5" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="udacity-dl" aria-hidden="true">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-        <h3 id="project5"><i class="icon-mail"></i> udacity-dl </h3>
+        <h3 id="project5"><i class="icon-rocket"></i> udacity-dl </h3>
       </div>
       <div class="modal-body">
         <div class="project-description">
@@ -365,7 +365,7 @@
     <div id="project6" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="Codeskulptor Games" aria-hidden="true">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-        <h3 id="project6"><i class="icon-mail"></i> Codeskulptor Games </h3>
+        <h3 id="project6"><i class="icon-rocket"></i> Codeskulptor Games </h3>
       </div>
       <div class="modal-body">
         <div class="project-description">
@@ -384,7 +384,7 @@
     <div id="project7" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="Virtual Tour" aria-hidden="true">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-        <h3 id="project7"><i class="icon-mail"></i> Virtual Tour </h3>
+        <h3 id="project7"><i class="icon-rocket"></i> Virtual Tour </h3>
       </div>
       <div class="modal-body">
         <div class="project-description">
@@ -403,7 +403,7 @@
     <div id="project8" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="Maze" aria-hidden="true">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-        <h3 id="project8"><i class="icon-mail"></i> Maze </h3>
+        <h3 id="project8"><i class="icon-rocket"></i> Maze </h3>
       </div>
       <div class="modal-body">
         <div class="project-description">
@@ -422,7 +422,7 @@
     <div id="project9" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="Image Utility" aria-hidden="true">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-        <h3 id="project9"><i class="icon-mail"></i> Image Utility</h3>
+        <h3 id="project9"><i class="icon-rocket"></i> Image Utility </h3>
       </div>
       <div class="modal-body">
         <div class="project-description">
