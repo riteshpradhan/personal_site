@@ -243,9 +243,9 @@ ul.work-images li:first-child {
 }
 ul.work-images li div {
 	/*background:url(../img/dragon.png) 50% 50% no-repeat;*/
-	background-size: 60px 80px;
-	background:url(../img/eye.png) 50% 50% no-repeat;
-	background-color: grey;
+	/*background-size: 60px 80px;*/
+	/*background:url(../img/eye.png) 50% 50% no-repeat;*/
+	/*background-color: grey;*/
 	-webkit-transition: all 0.2s linear;
 	-moz-transition: all 0.2s linear;
 	-o-transition: all 0.2s linear;

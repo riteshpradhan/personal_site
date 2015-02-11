@@ -13,6 +13,7 @@
     <link href="<?php bloginfo('template_url'); ?>/css/bootstrap-responsive.css" rel="stylesheet">
     <link href="<?php bloginfo('template_url'); ?>/css/style-single-page.css" rel="stylesheet">
     <link href="<?php bloginfo('template_url'); ?>/font/css/fontello.css" rel="stylesheet">
+    <link href="<?php bloginfo('template_url'); ?>/css/hover-effect.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
     <!-- Add jQuery library -->
     <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery-1.10.1.min.js"></script>
@@ -141,46 +142,129 @@
       </div>
       <!--END: Skills container-->
 
+
+
+
+
+
       <!-- Works container -->
       <div id="work" class="container">
         <h2>Portfolio</h2>
+
+        <ul class="work-images">
+          <li>
+            <div class="grid">
+              <figure class="effect-apollo">
+                <img src="<?php bloginfo('template_url'); ?>/img/projects/ocr-radon-thumb.png" alt="img18">
+                <figcaption>
+                  <p>OCR using Radon Transformation (C#)</p>
+                  <a href="##project1" title="OCR Radon Transformation"  data-toggle="modal" class="ocr">View more</a>
+                </figcaption>     
+              </figure>
+            </div>
+          </li>
+
+          <li>
+            <div class="grid">
+              <figure class="effect-apollo">
+                <img src="<?php bloginfo('template_url'); ?>/img/projects/rocket-sim-thumb.png" />
+                <figcaption>
+                  <p>Rocket simulation (C++)</p>
+                  <a href="##project2"  data-toggle="modal">View more</a>
+                </figcaption>     
+              </figure>
+            </div>
+          </li>
+
+          <li>
+            <div class="grid">
+              <figure class="effect-apollo">
+                <img src="<?php bloginfo('template_url'); ?>/img/projects/taktak-thumb.png" />
+                <figcaption>
+                  <p>TakTak Pictures Puzzle; Android & IOS; (Cocos2d-X)</p>
+                  <a href="##project3"  data-toggle="modal">View more</a>
+                </figcaption>     
+              </figure>
+            </div>
+          </li>
+        </ul>
         
         <ul class="work-images">
           <li>
-            <div><a href="##project1" title="OCR Radon Transformation"  data-toggle="modal" class="ocr">
-                    <img src="<?php bloginfo('template_url'); ?>/img/projects/ocr-radon-thumb.png" />
-                    <span class="text-content"><span>Place Name</span></span>
-                    </a></div>
+            <div class="grid">
+              <figure class="effect-apollo">
+                <img src="<?php bloginfo('template_url'); ?>/img/projects/faces-thumb.png" />
+                <figcaption>
+                  <p>Faces game (github.io)</p>
+                  <a href="##project4"  data-toggle="modal">View more</a>
+                </figcaption>     
+              </figure>
+            </div>
           </li>
+
           <li>
-            <div><a href="##project2"  data-toggle="modal"><img src="<?php bloginfo('template_url'); ?>/img/projects/rocket-sim-thumb.png" /></a></div>
+            <div class="grid">
+              <figure class="effect-apollo">
+                <img src="<?php bloginfo('template_url'); ?>/img/projects/python-powered-thumb.png" />
+                <figcaption>
+                  <p>Udacity-dl (python-package)</p>
+                  <a href="##project5"  data-toggle="modal">View more</a>
+                </figcaption>     
+              </figure>
+            </div>
           </li>
+
           <li>
-            <div><a href="##project3"  data-toggle="modal"><img src="<?php bloginfo('template_url'); ?>/img/projects/taktak-thumb.png" /></a></div>
+            <div class="grid">
+              <figure class="effect-apollo">
+                <img src="<?php bloginfo('template_url'); ?>/img/projects/codeskulptor-games-thumb.png" />
+                <figcaption>
+                  <p>Codeskulptor Games (Blackjack, Pong, Memory, Asteroids)</p>
+                  <a href="##project6"  data-toggle="modal">View more</a>
+                </figcaption>     
+              </figure>
+            </div>
           </li>
         </ul>
+
         <ul class="work-images">
           <li>
-            <div><a href="##project4"  data-toggle="modal"><img src="<?php bloginfo('template_url'); ?>/img/projects/faces-thumb.png" /></a></div>
+            <div class="grid">
+              <figure class="effect-apollo">
+                <img src="<?php bloginfo('template_url'); ?>/img/projects/virtual-tour-thumb.png" />
+                <figcaption>
+                  <p>Virtual Tour (3d Max & Ogre C++)</p>
+                  <a href="##project7"  data-toggle="modal">View more</a>
+                </figcaption>     
+              </figure>
+            </div>
           </li>
+
           <li>
-            <div><a href="##project5"  data-toggle="modal"><img src="<?php bloginfo('template_url'); ?>/img/projects/python-powered-thumb.png" /></a></div>
+            <div class="grid">
+              <figure class="effect-apollo">
+                <img src="<?php bloginfo('template_url'); ?>/img/projects/python-powered-thumb.png" />
+                <figcaption>
+                  <p>Maze (Python)</p>
+                  <a href="##project8"  data-toggle="modal">View more</a>
+                </figcaption>     
+              </figure>
+            </div>
           </li>
+
           <li>
-            <div><a href="##project6"  data-toggle="modal"><img src="<?php bloginfo('template_url'); ?>/img/projects/codeskulptor-games-thumb.png" /></a></div>
+            <div class="grid">
+              <figure class="effect-apollo">
+                <img src="<?php bloginfo('template_url'); ?>/img/projects/python-powered-thumb.png" />
+                <figcaption>
+                  <p>Image Utility (Python)</p>
+                  <a href="##project9"  data-toggle="modal">View more</a>
+                </figcaption>     
+              </figure>
+            </div>
           </li>
         </ul>
-        <ul class="work-images">
-          <li>
-            <div><a href="##project7"  data-toggle="modal"><img src="<?php bloginfo('template_url'); ?>/img/projects/virtual-tour-thumb.png" /></a></div>
-          </li>
-          <li>
-            <div><a href="##project8"  data-toggle="modal"><img src="<?php bloginfo('template_url'); ?>/img/projects/python-powered-thumb.png" /></a></div>
-          </li>
-          <li>
-            <div><a href="##project9"  data-toggle="modal"><img src="<?php bloginfo('template_url'); ?>/img/projects/python-powered-thumb.png" /></a></div>
-          </li>
-        </ul>
+
         <!-- <ul class="work-images">
           <li>
             <div><a class="fancybox-thumb" rel="fancybox-thumb" href="<?php bloginfo('template_url'); ?>/img/1.jpg" title="Image 01"><img src="<?php bloginfo('template_url'); ?>/img/1-thumb.jpg" /></a></div>
